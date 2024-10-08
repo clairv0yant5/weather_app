@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Dots:wght@400..700&display=swap');
+
+* {
+    font-family: "Edu AU VIC WA NT Dots", cursive;
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to right, #4a90e2, #50e3c2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather {
+    display: flex;
+    align-items: center;
+    color: black;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather * {
+    margin: 1%;
+    padding: 1%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.temp {
+    margin: 2%;
+}
+
+.DnT {
+    font-size: 1.25rem;
+}
+
+.cityName {
+    font-size: 3rem;
+}
+
+.condition {
+    font-size: 1.75rem;
+}
+
+img {
+    width: 3rem;
+}
+
+.navi {
+    display: flex;
+    width: 100%;
+    background-color: #333333;
+    height: 100px;
+    position: absolute;
+    bottom: 0%;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    width: 65%;
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+}
+
+.city {
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: transparent;
+    outline: none;
+    color: whitesmoke;
+    border: none;
+    border-bottom: 1px solid beige;
+}
+
+button {
+    border: 1px solid beige;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
